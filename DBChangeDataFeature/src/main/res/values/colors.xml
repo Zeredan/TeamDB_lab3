@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bloody">#FF820000</color>
+    <color name="red_spec">#FFFF0000</color>
+    <color name="yellow_spec">#FFFFC800</color>
+    <color name="ochra">#FFa98000</color>
+    <color name="green_spec">#FF4AFF00</color>
+    <color name="dark_green">#FF218E04</color>
+</resources>

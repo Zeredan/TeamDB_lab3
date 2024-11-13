@@ -46,7 +46,7 @@ class DBSelectionViewModel() : ViewModel() {
                         listOf(
                             "id клиента",
                         ),
-                        Order.Client_update
+                        Order.Client_delete
                     ),
                 )
             ),

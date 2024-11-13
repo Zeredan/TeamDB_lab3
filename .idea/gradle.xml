@@ -12,8 +12,8 @@
             <option value="$PROJECT_DIR$/DBChangeDataFeature" />
             <option value="$PROJECT_DIR$/DBSelectionFeature" />
             <option value="$PROJECT_DIR$/InteractionFormFeature" />
+            <option value="$PROJECT_DIR$/TablesData" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/core" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

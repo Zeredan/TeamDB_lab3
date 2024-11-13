@@ -1,6 +1,7 @@
 package com.example.core.DTO_Tables
 
-data class GasStation(
+data class Firm(
     val address: String,
-    val firmId: Int
+    val phone: String,
+    val name: String
 )

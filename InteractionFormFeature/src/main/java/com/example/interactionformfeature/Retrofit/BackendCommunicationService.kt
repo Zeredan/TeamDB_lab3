@@ -6,7 +6,7 @@ import com.example.core.DTO_Tables.Firm
 import com.example.core.DTO_Tables.FirmHasFuel
 import com.example.core.DTO_Tables.Fuel
 import com.example.core.DTO_Tables.GasStation
-import com.example.core.DTO_Tables.Sell
+import com.example.core.DTO_Tables.Sale
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.PATCH
@@ -70,12 +70,12 @@ interface BackendCommunicationService {
 
     //================================================================================
 
-    @POST("tables/sell")
-    suspend fun insertSell(@Body sell: Sell)
+    @POST("tables/sale")
+    suspend fun insertSell(@Body sell: Sale)
 
-    @PATCH("tables/sell/{sellId}")
-    suspend fun updateSell(@Path("sellId") sellId: Int, @Body sell: Sell)
+    @PATCH("tables/sale/{saleId}")
+    suspend fun updateSell(@Path("saleId") sellId: Int, @Body sell: Sale)
 
-    @DELETE("tables/sell/{sellId}")
-    suspend fun deleteSell(@Path("sellId") sellId: Int)
+    @DELETE("tables/sale/{saleId}")
+    suspend fun deleteSell(@Path("saleId") sellId: Int)
 }

@@ -66,6 +66,15 @@ fun InteractionFormRoot() {
                 .fillMaxWidth(0.9f)
         )
         {
+            item{
+                TextField(
+                    value = vm.baseUrl,
+                    onValueChange = {vm.baseUrl = it},
+                    label = {
+                        Text("Base Url")
+                    }
+                )
+            }
             itemsIndexed(state?.fields ?: listOf()){ ind, field ->
                 TextField(
                     value = vm.textValues[ind],

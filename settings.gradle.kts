@@ -17,5 +17,5 @@ rootProject.name = "teamBd_lab3"
 include(":app")
 include(":DBSelectionFeature")
 include(":DBChangeDataFeature")
-include(":core")
+include(":TablesData")
 include(":InteractionFormFeature")
